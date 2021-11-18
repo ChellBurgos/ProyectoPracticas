@@ -2,6 +2,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    height:100%;
 }
 
 .main[b-bbqsljxh4b] {
@@ -10,6 +11,7 @@
 
 .sidebar[b-bbqsljxh4b] {
     background-color: #11101d;
+    height:100%;
     
 }
 
@@ -53,7 +55,7 @@
 
     .sidebar[b-bbqsljxh4b] {
         width: 250px;
-        height: 100vh;
+        height:100%;
         position: sticky;
         top: 0;
     }
