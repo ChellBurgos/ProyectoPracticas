@@ -10,11 +10,12 @@
 }
 
 .sidebar[b-bbqsljxh4b] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-color: #11101d;
+    
 }
 
 .top-row[b-bbqsljxh4b] {
-    background-color: #f7f7f7;
+    background-color: #13131b;
     border-bottom: 1px solid #d6d5d5;
     justify-content: flex-end;
     height: 3.5rem;
@@ -77,18 +78,37 @@
 .top-row[b-zw3jrgfpip] {
     height: 3.5rem;
     background-color: rgba(0,0,0,0.4);
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
 }
 
 .navbar-brand[b-zw3jrgfpip] {
     font-size: 1.1rem;
 }
 
-.oi[b-zw3jrgfpip] {
-    width: 2rem;
-    font-size: 1.1rem;
-    vertical-align: text-top;
-    top: -2px;
+.nav[b-zw3jrgfpip] {
+  margin-top: 10px;
 }
+
+    .nav li[b-zw3jrgfpip] {
+        font-size: 16px;
+        transition: 500ms background;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        position: relative;
+        list-style: none;
+    }
+
+        .nav li a i[b-zw3jrgfpip] {
+            height: 50px;
+            min-width: 60px;
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+            font-size: 20px;
+        }
 
 .nav-item[b-zw3jrgfpip] {
     font-size: 0.9rem;

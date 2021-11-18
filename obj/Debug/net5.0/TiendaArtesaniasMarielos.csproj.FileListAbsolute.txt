@@ -49,3 +49,4 @@ D:\VisualStudio\ProyectoDePracticas\obj\Debug\net5.0\ref\TiendaArtesaniasMarielo
 D:\VisualStudio\ProyectoDePracticas\obj\Debug\net5.0\TiendaArtesaniasMarielos.pdb
 D:\VisualStudio\ProyectoDePracticas\obj\Debug\net5.0\TiendaArtesaniasMarielos.genruntimeconfig.cache
 D:\VisualStudio\ProyectoDePracticas\obj\Debug\net5.0\TiendaArtesaniasMarielos.csproj.CopyComplete
+D:\VisualStudio\ProyectoDePracticas\obj\Debug\net5.0\TiendaArtesaniasMarielos.csproj.AssemblyReference.cache

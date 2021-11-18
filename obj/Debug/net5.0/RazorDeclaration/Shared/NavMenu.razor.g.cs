@@ -90,7 +90,7 @@ using TiendaArtesaniasMarielos.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "D:\VisualStudio\ProyectoDePracticas\Shared\NavMenu.razor"
+#line 61 "D:\VisualStudio\ProyectoDePracticas\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 
