@@ -9,8 +9,187 @@
 }
 
 .sidebar[b-bbqsljxh4b] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 260px;
+    background: #11101d;
+    z-index: 100;
+    transition: all 0.5s ease;
 }
+
+    .sidebar.close[b-bbqsljxh4b] {
+        width: 60px;
+    }
+
+
+
+    .sidebar .logo-details[b-bbqsljxh4b] {
+        height: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+    }
+
+
+
+        .sidebar .logo-details .logo_name[b-bbqsljxh4b] {
+            font-size: 18px;
+            color: #fff;
+            font-weight: 600;
+            white-space: nowrap;
+            transition: 0.3s ease;
+            transition-delay: 0.1s;
+        }
+
+    .sidebar.close .logo-details .logo_name[b-bbqsljxh4b] {
+        transition-delay: 0s;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .sidebar .nav-links[b-bbqsljxh4b] {
+        height: 100%;
+        padding: 30px 0 150px 0;
+        overflow: auto;
+    }
+
+    .sidebar .nav-links[b-bbqsljxh4b] {
+        overflow: visible;
+        list-style: none;
+    }
+
+        .sidebar .nav-links[b-bbqsljxh4b]::-webkit-scrollbar {
+            display: none;
+        }
+
+        .sidebar .nav-links li[b-bbqsljxh4b] {
+            position: relative;
+            list-style: none;
+            transition: all 0.4s ease;
+        }
+
+            .sidebar .nav-links li:hover[b-bbqsljxh4b] {
+                background: rgba(255,255,255,0.25);
+                color: white;
+                border-radius: 8px;
+            }
+
+
+            .sidebar .nav-links li .icon-link[b-bbqsljxh4b] {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+    .sidebar.close .nav-links li .icon-link[b-bbqsljxh4b] {
+        display: block;
+    }
+
+    .sidebar .nav-links li i[b-bbqsljxh4b] {
+        height: 50px;
+        min-width: 60px;
+        text-align: center;
+        line-height: 50px;
+        color: #fff;
+        font-size: 20px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+    .sidebar .nav-links li.showMenu i.arrow[b-bbqsljxh4b] {
+        transform: rotate(-180deg);
+    }
+
+
+
+    .sidebar.close .nav-links i.arrow[b-bbqsljxh4b] {
+        display: none;
+    }
+
+
+
+    .sidebar .nav-links li a[b-bbqsljxh4b] {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+
+        .sidebar .nav-links li a .link_name[b-bbqsljxh4b] {
+            font-size: 18px;
+            font-weight: 400;
+            color: #fff;
+        }
+
+    .sidebar.close .nav-links li a .link_name[b-bbqsljxh4b] {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .sidebar .nav-links li .submenu[b-bbqsljxh4b] {
+        /* padding: 6px 6px 14px 30px;  */
+        margin-top: -10px;
+        background: #1d1b31;
+        display: none;
+    }
+
+
+    .sidebar .nav-links li.showMenu .submenu[b-bbqsljxh4b] {
+        display: block;
+    }
+
+
+
+    .sidebar .nav-links li .submenu a[b-bbqsljxh4b] {
+        color: #fff;
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        white-space: nowrap;
+        opacity: 0.6;
+        transition: all 0.3s ease;
+    }
+
+        .sidebar .nav-links li .submenu a:hover[b-bbqsljxh4b] {
+            opacity: 1;
+        }
+
+    .sidebar.close .nav-links li .submenu[b-bbqsljxh4b] {
+        position: absolute;
+        left: 100%;
+        top: -10px;
+        margin-top: 0;
+        padding: 10px 20px;
+        border-radius: 0 6px 6px 0;
+        transition: 0s;
+        opacity: 0;
+        display: block;
+        pointer-events: none;
+    }
+
+    .sidebar.close .nav-links li:hover .submenu[b-bbqsljxh4b] {
+        top: 0;
+        opacity: 1;
+        pointer-events: auto;
+        transition: all 0.4s ease;
+    }
+
+    .sidebar .nav-links li .submenu .link_name[b-bbqsljxh4b] {
+        display: none;
+    }
+
+    .sidebar.close .nav-links li .submenu .link_name[b-bbqsljxh4b] {
+        font-size: 18px;
+        opacity: 1;
+        display: block;
+    }
+
+    .sidebar ul li.active[b-bbqsljxh4b] {
+        background-color: rgba(255,255,255,0.25);
+        border-radius: 8px;
+    }
 
 .top-row[b-bbqsljxh4b] {
     background-color: #f7f7f7;
