@@ -50,3 +50,5 @@ D:\VisualStudio\ProyectoDePracticas\obj\Debug\net5.0\TiendaArtesaniasMarielos.pd
 D:\VisualStudio\ProyectoDePracticas\obj\Debug\net5.0\TiendaArtesaniasMarielos.genruntimeconfig.cache
 D:\VisualStudio\ProyectoDePracticas\obj\Debug\net5.0\TiendaArtesaniasMarielos.csproj.CopyComplete
 D:\VisualStudio\ProyectoDePracticas\obj\Debug\net5.0\TiendaArtesaniasMarielos.csproj.AssemblyReference.cache
+D:\VisualStudio\ProyectoDePracticas\obj\Debug\net5.0\RazorDeclaration\Pages\Catalogos.razor.g.cs
+D:\VisualStudio\ProyectoDePracticas\obj\Debug\net5.0\Razor\Pages\Catalogos.razor.g.cs
