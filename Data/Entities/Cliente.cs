@@ -12,5 +12,7 @@ namespace TiendaArtesaniasMarielos.Data.Entities
         public string Direccion { get; set; }
         public int Telefono { get; set; }
         public string Correo { get; set; }
+
+        public virtual ICollection<Venta> Ventas { get; set; }
     }
 }

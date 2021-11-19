@@ -10,5 +10,9 @@ namespace TiendaArtesaniasMarielos.Data.Entities
         public int IdSubCategoria { get; set; }
         public int CSC_IdCategoria { get; set; }
         public string Descripcion { get; set; }
+
+        public virtual Categoria Categoria { get; set; }
+
+        public virtual ICollection<Articulo> Articulos { get; set; }
     }
 }

@@ -10,9 +10,12 @@ namespace TiendaArtesaniasMarielos.Data.Entities
         public int IdUsuario { get; set; }
         public int TU_IdRol { get; set; }
         public string Nombre_Apellido { get; set; }
-        public string Direccion { get; set; }
-        public int Telefono { get; set; }
         public string Nombre_Usuario { get; set; }
-        public string Contrasena { get; set; }
+        public string Clave { get; set; }
+        public string ConfirmarClave { get; set; }
+
+        public virtual Rol Rol { get; set; }
+
+        public virtual ICollection<Venta> Ventas { get; set; }
     }
 }
