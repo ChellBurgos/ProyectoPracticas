@@ -13,5 +13,9 @@ namespace TiendaArtesaniasMarielos.Data.Entities
         public string Nombre_Usuario { get; set; }
         public string Clave { get; set; }
         public string ConfirmarClave { get; set; }
+
+        public virtual Rol Rol { get; set; }
+
+        public virtual ICollection<Venta> Ventas { get; set; }
     }
 }

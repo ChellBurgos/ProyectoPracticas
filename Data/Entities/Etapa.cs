@@ -9,5 +9,6 @@ namespace TiendaArtesaniasMarielos.Data.Entities
     {
         public int IdEtapa { get; set; }
         public string Nombre_Etapa { get; set; }
+        public virtual ICollection<Articulo> Articulos { get; set; }
     }
 }

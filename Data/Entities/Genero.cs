@@ -9,5 +9,7 @@ namespace TiendaArtesaniasMarielos.Data.Entities
     {
         public int IdGenero { get; set; }
         public string Nombre_Genero { get; set; }
+
+        public virtual ICollection<Articulo> Articulos { get; set; }
     }
 }

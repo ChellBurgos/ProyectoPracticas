@@ -13,5 +13,8 @@ namespace TiendaArtesaniasMarielos.Data.Entities
         public int Cantidad { get; set; }
         public decimal PrecioUnidad { get; set; }
         public decimal Descuento { get; set; }
+
+        public virtual Venta Venta { get; set; }
+        public virtual Articulo Articulo { get; set; }
     }
 }
